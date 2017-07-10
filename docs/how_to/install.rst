@@ -111,7 +111,7 @@ configuration for your project. Example: ::
 Migrations
 ==========
 
-Now run ``python manage.py migrate`` if you have not already done so,
+Now run ``python manage.py makemigrations`` if you have not already done so,
 followed by ``python manage.py migrate`` to prepare the database for the new
 applications.
 
