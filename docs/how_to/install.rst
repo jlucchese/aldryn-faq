@@ -58,11 +58,14 @@ In your project's ``settings.py`` make sure you have all of::
     'aldryn_boilerplates',
     'aldryn_reversion',
     'aldryn_translation_tools',
-    'djangocms_text_ckeditor',
     'parler',
     'sortedm2m',
     'aldryn_faq',
     'taggit',
+    
+    # you'll almost certainly have these installed already
+    'djangocms_text_ckeditor',
+    'reversion',    
 
 listed in ``INSTALLED_APPS``, *after* ``'cms'``.
 
